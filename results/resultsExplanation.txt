@@ -1,0 +1,10 @@
+The SIMD vectorization results indicate consistent improvements across different operations 
+and input sizes. In vector-vector multiplication, the vectorized approach consistently
+demonstrates a 3% improvement over the scalar method. For matrix-vector multiplication,
+the vectorized implementation showcases notable improvements is approximately 2.34%,
+with larger input sizes yielding higher gains. Similarly, in matrix-matrix multiplication, the
+vectorized approach consistently outperforms the scalar method, with percentage
+improvements ranging from approximately 1.81% to 2.18%. These findings underscore the
+efficacy of SIMD vectorization in enhancing performance across various computational tasks,
+highlighting its potential for optimizing mathematical operations in parallel processing
+environments.
